@@ -1,4 +1,6 @@
+package RPS_4thPeriod;
 
+import java.util.Random;
 /**
  * Write a description of class RPSPlayer here.
  *
@@ -20,7 +22,14 @@ public class RPSPlayer implements Player
      * If cpu = false, ask user for input
      */
     public String pick(boolean cpu) {
-        return null;
+        if (cpu==true){
+            Random rand = new Random();
+            int play = rand.nextInt(3);
+            
+        }
+        else{
+            
+        }
     }
     
     
